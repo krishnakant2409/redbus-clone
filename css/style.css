@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.main .navbar{
+    display: grid;
+    grid-template-columns:  70% auto;
+    background-color: tomato;
+    padding: 0 5%;
+}
+.navbar .logo , .navbar .menu-container{
+    padding: 10px;
+}
+.navbar img{
+    height: 50px;
+    width: 100px;
+}
+
+.navbar .logo{
+    display: flex;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.navbar .logo ul,.navbar .menu-container ul {
+    
+    list-style-type: none;
+}
+.navbar .logo li,.navbar .menu-container li {
+    display: block;
+    float: left;
+    padding: 15px;
+}
+
+.navbar .logo li:hover {
+    border-bottom: 2px solid white;
+}
+
+.navbar .logo a,.navbar .menu-container a {
+    text-decoration: none;
+    color: white;
+}
+
+/* booking form  */
+.booking-form{
+    background-image: url(../images/redbus-web-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.booking-form form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+}
+
+.booking-form input{
+    padding: 10px;
+    margin: -2px;
+}
+
+.booking-form input[type=submit]{
+    border: none;
+    background: tomato;
+    color: white;
+}
+
+.booking-form .mega-offer{
+    background: white;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    box-shadow: 0px 0px 6px 0px;
+}
+
+
+.offer{
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 100px;
+    
+}
+.code{
+  
+    box-shadow: 0px 0px 6px 0px;
+    text-align: center;
+}
+.kk{
+   
+    box-shadow: 0px 0px 6px 0px;
+    text-align: center;
+}
+.kkk{
+  
+    box-shadow: 0px 0px 6px 0px;
+    text-align: center;
+}
+.tc {
+    display: grid;
+    grid-template-columns: 10% auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-color: #ddd;
+      
+}
+.r1{
+    grid-row: 1/4;
+    padding: 10px;
+    
+}
+    
+.r4{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    
+    
+}
+.r5{
+    padding: 20px;
+}
+.service{
+    background-image: url(../images/logo10.png);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.c1{
+    width: 80%;
+    padding:100px;
+    margin: 15px auto;
+}
+.c2{
+    height:60% ;
+}
+
+
+.award{
+    text-align: center;
+    background-color: rgb(227, 223, 223);
+    padding: 15px 10%;
+}
+
+.award .promise{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+.promise .promise-award{
+    border:1px solid rgb(198, 195, 195);
+    padding: 50px;
+    display: block;
+    color: rgb(136, 131, 131);
+}
+.promise .promise-award img{
+    width: 110px;
+    height: 100px;
+}
+.promise .promise-award h5{
+    margin: 20px 0;
+    padding: 30px;
+
+}
+.client{
+    text-align: center;
+    padding:15px 10%;
+}
+.client .staraward{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+}
+.staraward .a1{
+    display: block;
+    padding:50px;
+}
+.staraward .a1 img{
+    width: 200px;
+    height:100px ;
+}
+.staraward .a1 h5{
+    margin: 20px 0;
+    padding: 30px;
+}
+.national .flag1 img{
+    height: 100px;
+    padding: 19px;
+    
+}
+.national{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    padding: 10px;
+    margin: 30px 100px;
+    text-align: center;
+   
+}
+.visiter{
+    background-color: rgb(234, 234, 234) ;
+}
+.kk{
+    display: grid;
+    grid-template-columns:auto auto auto auto 30%;
+    background-color: rgb(49, 41, 67);
+    padding: 5%;
+    text-align: left;
+    
+   
+}
+
+   
+.kk .kk1 a{
+    text-decoration: none;
+    color: #ddd;
+}
+.kk .kk1 ul{
+    list-style-type: none;
+}
+.kk .kk1 p{
+    color: #ddd;
+}
+.kk .kk1 h5{
+    color: grey;
+    padding: 10px;
+}
